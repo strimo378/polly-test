@@ -25,7 +25,7 @@
         <configuration>
           <instructions>
             <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-            <Bundle-Version>${project.version}</Bundle-Version>
+            <Bundle-Version>${isl.osgi.version}</Bundle-Version>
           </instructions>
         </configuration>
       </plugin>

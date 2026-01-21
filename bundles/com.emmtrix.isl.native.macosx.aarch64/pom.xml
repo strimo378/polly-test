@@ -26,7 +26,7 @@
           <instructions>
             <Bundle-ManifestVersion>2</Bundle-ManifestVersion>
             <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-            <Bundle-Version>${project.version}</Bundle-Version>
+            <Bundle-Version>${isl.osgi.version}</Bundle-Version>
             <Fragment-Host>com.emmtrix.isl.jni</Fragment-Host>
             <Bundle-NativeCode>native/macosx/aarch64/*;osname=macosx;processor=aarch64</Bundle-NativeCode>
           </instructions>

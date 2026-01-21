@@ -28,6 +28,7 @@
     <maven.compiler.parameters>true</maven.compiler.parameters>
     <maven.bundle.plugin.version>5.1.9</maven.bundle.plugin.version>
     <tycho.version>4.0.7</tycho.version>
+    <isl.osgi.version>0.1.0.qualifier</isl.osgi.version>
   </properties>
 
   <build>

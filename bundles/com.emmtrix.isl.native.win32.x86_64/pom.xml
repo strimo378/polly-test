@@ -26,7 +26,7 @@
           <instructions>
             <Bundle-ManifestVersion>2</Bundle-ManifestVersion>
             <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-            <Bundle-Version>${project.version}</Bundle-Version>
+            <Bundle-Version>${isl.osgi.version}</Bundle-Version>
             <Fragment-Host>com.emmtrix.isl.jni</Fragment-Host>
             <Bundle-NativeCode>native/win32/x86_64/*;osname=win32;processor=x86_64</Bundle-NativeCode>
           </instructions>
