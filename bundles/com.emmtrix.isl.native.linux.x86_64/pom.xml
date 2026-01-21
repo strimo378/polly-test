@@ -27,6 +27,8 @@
             <phase>none</phase>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
         <version>${maven.bundle.plugin.version}</version>
