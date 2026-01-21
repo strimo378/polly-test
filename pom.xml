@@ -12,6 +12,9 @@
   <modules>
     <module>bundles/com.emmtrix.isl.core</module>
     <module>bundles/com.emmtrix.isl.jni</module>
+    <module>bundles/com.emmtrix.isl.native.win32.x86_64</module>
+    <module>bundles/com.emmtrix.isl.native.linux.x86_64</module>
+    <module>bundles/com.emmtrix.isl.native.macosx.aarch64</module>
   </modules>
 
   <properties>
