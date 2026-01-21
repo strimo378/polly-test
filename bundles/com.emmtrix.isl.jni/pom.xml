@@ -12,7 +12,7 @@
   </parent>
 
   <artifactId>com.emmtrix.isl.jni</artifactId>
-  <packaging>bundle</packaging>
+  <packaging>eclipse-plugin</packaging>
   <name>ISL JNI Bundle</name>
 
   <build>

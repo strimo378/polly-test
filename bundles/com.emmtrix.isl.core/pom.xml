@@ -12,7 +12,7 @@
   </parent>
 
   <artifactId>com.emmtrix.isl.core</artifactId>
-  <packaging>bundle</packaging>
+  <packaging>eclipse-plugin</packaging>
   <name>ISL Core Bundle</name>
 
   <build>

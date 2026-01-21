@@ -1,0 +1,2 @@
+This is a placeholder for the Linux native JNI library.
+Build native artifacts with CMake to replace this file.

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ISL Native Fragment (macosx aarch64)
+Bundle-SymbolicName: com.emmtrix.isl.native.macosx.aarch64
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: Emmtrix
+Fragment-Host: com.emmtrix.isl.jni
+Bundle-NativeCode: native/macosx/aarch64/libisl_wrapper.dylib;osname=macosx;
+ processor=aarch64

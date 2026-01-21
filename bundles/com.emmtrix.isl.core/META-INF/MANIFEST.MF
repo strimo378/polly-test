@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ISL Core Bundle
+Bundle-SymbolicName: com.emmtrix.isl.core
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: Emmtrix
+Export-Package: com.emmtrix.isl.core
