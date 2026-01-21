@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ISL Native Fragment (linux x86_64)
+Bundle-SymbolicName: com.emmtrix.isl.native.linux.x86_64
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: Emmtrix
+Fragment-Host: com.emmtrix.isl.jni
+Bundle-NativeCode: native/linux/x86_64/libisl_wrapper.so;osname=linux;
+ processor=x86_64

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ISL JNI Bundle
+Bundle-SymbolicName: com.emmtrix.isl.jni
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: Emmtrix

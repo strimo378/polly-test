@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ISL Native Fragment (win32 x86_64)
+Bundle-SymbolicName: com.emmtrix.isl.native.win32.x86_64
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: Emmtrix
+Fragment-Host: com.emmtrix.isl.jni
+Bundle-NativeCode: native/win32/x86_64/isl_wrapper.dll;osname=win32;
+ processor=x86_64
