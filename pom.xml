@@ -11,6 +11,7 @@
 
   <modules>
     <module>bundles/com.emmtrix.isl.core</module>
+    <module>bundles/com.emmtrix.isl.jni</module>
   </modules>
 
   <properties>
