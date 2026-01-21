@@ -1,0 +1,17 @@
+Third-Party Notices
+====================
+
+This project bundles or links against the following third-party components:
+
+1. Integer Set Library (ISL)
+   - License: MIT
+   - Project: https://libisl.sourceforge.io/
+   - License text: see LICENSE (MIT License)
+
+2. GNU Multiple Precision Arithmetic Library (GMP)
+   - License: GNU LGPL v3.0 or later
+   - Project: https://gmplib.org/
+   - License text: https://www.gnu.org/licenses/lgpl-3.0.html
+
+If additional native dependencies are introduced, they must be added to this
+notice file with their applicable license information.
