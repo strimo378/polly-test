@@ -1,14 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-url="${1:-${ISL_URL:-}}"
-output_dir="${2:-${ISL_OUTPUT_DIR:-downloads}}"
+DEFAULT_ISL_URL="https://github.com/Meinersbur/isl/archive/refs/tags/isl-0.24.tar.gz"
 
-if [[ -z "$url" ]]; then
-  echo "Usage: $0 <isl-url> [output-dir]" >&2
-  echo "Or set ISL_URL and optional ISL_OUTPUT_DIR." >&2
-  exit 1
-fi
+url="${1:-${ISL_URL:-$DEFAULT_ISL_URL}}"
+output_dir="${2:-${ISL_OUTPUT_DIR:-downloads}}"
 
 mkdir -p "$output_dir"
 
