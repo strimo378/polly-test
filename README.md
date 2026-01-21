@@ -2,7 +2,7 @@
 
 Java/JNI bindings intended to make ISL functionality available to Java applications, with a focus on **Eclipse/OSGi** distribution.
 
-> Note: The current JNI implementation in this repository is a minimal implementation used to validate the build/tooling and the Java-facing API shape (e.g., it stores the set text and performs argument checks). It is not yet a full binding to the upstream ISL library. See `bundles/com.emmtrix.isl.jni/src/main/c/isl_jni.c`.  
+> Note: The JNI implementation in this repository binds directly to the upstream ISL library. JNI calls use ISL APIs (e.g., `isl_ctx_alloc`, `isl_set_read_from_str`) and map ISL errors to Java exceptions. See `bundles/com.emmtrix.isl.jni/src/main/c/isl_jni.c`.
 
 ## Repository structure
 
@@ -55,6 +55,7 @@ Prerequisites:
 
 * JDK 11 
 * Maven
+* ISL development headers and libraries available to the native build toolchain (for JNI).
 
 Build everything (including tests, feature, p2 repo):
 
@@ -71,8 +72,8 @@ Keep OSGi and p2 versions aligned:
 
 ## Development notes
 
-* The current JNI layer provides basic handle validation, lifetime tracking, and error mapping to Java exceptions (e.g., invalid arguments, native failures) implemented in `isl_jni.c` .
-* A small CMake-based native stub exists under `native/isl-wrapper` (builds a shared library named `isl_wrapper`) .
+* The JNI layer calls directly into ISL and maps ISL error categories to Java exceptions implemented in `isl_jni.c`.
+* A small CMake-based native wrapper exists under `native/isl-wrapper` (builds a shared library named `isl_wrapper`).
 
 ## License
 
